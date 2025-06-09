@@ -25,7 +25,7 @@ const Task = ({ task, onToggle, onDelete }) => (
     >
       {task.completed && <Check size={16} className="text-white" />}
     </button>
-    <span className={`flex-1 ${task.completed ? 'line-through text-gray-500' : ''}`}>
+    <span className={`flex-1 break-words ${task.completed ? 'line-through text-gray-500' : ''}`}>
       {task.text}
     </span>
     <button
@@ -214,6 +214,13 @@ const DailyTaskApp = () => {
                 className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
               >
                 <Calendar size={20} />
+              </button>
+
+              <button
+                onClick={() => setCurrentDate(new Date())}
+                className="p-2 hover:bg-gray-100 rounded-lg transition-colors text-sm font-medium"
+              >
+                Today
               </button>
             </div>
             
