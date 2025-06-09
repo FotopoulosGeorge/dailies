@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dailies/static/css/main.cf890fdb.css",
+    "main.js": "/dailies/static/js/main.cb40dfa0.js",
+    "index.html": "/dailies/index.html",
+    "main.cf890fdb.css.map": "/dailies/static/css/main.cf890fdb.css.map",
+    "main.cb40dfa0.js.map": "/dailies/static/js/main.cb40dfa0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf890fdb.css",
+    "static/js/main.cb40dfa0.js"
+  ]
+}
